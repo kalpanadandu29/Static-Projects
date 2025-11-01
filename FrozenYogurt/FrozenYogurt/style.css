@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    height:15vh;
+    width:100%;
+    background-color: whitesmoke;
+    display:flex;
+}
+.logo{
+   height:15vh;
+   width: 30%;
+   background-color:whitesmoke; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+   cursor: pointer;
+   
+}
+.links{
+    height: 15vh;
+    width:70%;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: yellowgreen;
+}
+a:active{
+    color:red;
+}
+.home{
+    background-image: url(./Images/bg-home.jpg);
+    height: 110vh;
+    width: 100%;
+}
+.product{
+    height: 46.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgb(240, 240, 240);
+}
+.content{
+    width: 50%;
+    margin-left: 70px;
+}
+.para1{
+    font-size: 16px;
+    color: rgb(111, 45, 45);
+    margin-bottom: 15px;
+}
+.para2{
+    font-size: 36px;
+    color: rgb(245, 4, 124, 0.866);
+}
+.para3{
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(111, 45, 45);
+}
+.i1{
+   width: 40%;
+   height: 43.5vh;
+}
+.container{
+    height: 28vh;
+    width: 100%;
+    background:#c7c000;
+    margin: auto;
+}
+.icecream .pro{
+    padding: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 25px 50px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    background-color: #d1376d;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.icons1{
+    display:flex;
+    justify-content: center;
+    text-align:  center;
+    margin-bottom: 15px;
+}
+.ic1{
+    margin: 0 15px;
+}
+.rights{
+    font-size: 13px;
+    color: white;
+}
+
+
