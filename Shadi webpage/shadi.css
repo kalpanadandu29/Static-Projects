@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bgimage{
+    background-color: aquamarine;
+    height: 95vh;
+    background-image: url(./images/WhatsApp\ Image\ 2025-08-07\ at\ 23.37.25_a0e920f3.jpg);
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header{
+    height: 20vh;
+    display: flex;
+}
+.header img{
+    height: 14vh;
+    width: 50%;
+    margin: 10px;
+    margin-left: 15px;
+}
+.shadilogo{
+    height: 20vh;
+    width: 30%;
+}
+.header .buttons{
+    height: 20vh;
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+.b1,.b2{
+    height: 39px;
+    width: 9%;
+    margin: 5px;
+    border-radius: 9px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.b2{
+    background-color: #368D87;
+    color: white;
+    width: 13%;
+    height: 39px;
+    margin-right: 15px;
+}
+.b1{
+    background-color: #6D5E63;
+    color: white;
+}
+.b1:hover{
+    background-color:#e5e6e6;
+    color: white;
+
+}
+.b2:hover{
+    background-color: #4ea7a1;
+}
+
+.trademark{
+    display: flex;
+    justify-content:  center;
+    margin: 15px auto;
+}
+.button1{
+    height: 32px;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    background-color: rgb(255, 61, 61);
+    color: white;
+    border: none;
+
+}
+.contents{
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.subcontents{
+    height:300px;
+    width: 350px;
+}
+.para1{
+    margin: 10px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.profiles{
+    font-size: 19px;
+    text-align: center;
+    color: brown;
+    text-transform:uppercase;
+    margin: 20px 0;
+}
+
+.container{
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.headline{
+    text-align: center; 
+    margin: 10px 0; 
+    font-size: 18px;
+    color: brown;
+}
+.religion,.caste,.states{
+    height: 220px;
+    width: 330px;
+    border-radius: 10px;
+    background-color: rgb(249, 249, 249);
+    display: grid;
+    box-shadow: 5px  5px 10px gray;
+
+}
+.links{
+    text-decoration: none;
+}
+.links:hover{
+    color: brown;
+}
+.types{
+    margin: 0px 20px;
+    text-align: center;
+}
+.button2{
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    margin: 0px auto;
+    background-color: #76c7c0;
+    color: #337ab7;
+    border: none;
+    box-shadow: 0px 5px #62b9b0;
+}
+.button2:hover{
+    color: white;
+    background-color: gray;
+}
+.read{
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+.relationshipadvice{
+    height: 430px;
+    width: 330px;
+    margin: 20px auto;
+}
+.headline2{
+    height: 10%;
+    text-align: center;
+    font-size: 19px;
+    margin: 7px 0;
+    font-style: italic;
+}
+.i2{
+    height: 50% ;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.para2{
+    height: 40%;
+    font-size: 16px;
+    line-height: 25px;
+}
+ .more{
+    text-align: right;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+    display: block;
+ }
+ .more:hover{
+    color: brown;
+ }
+ .contents2{
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .subcontents2{
+    height: 60vh;
+    width: 500px;
+}
+.i3{
+    height: 50% ;
+    width: 80%;
+    margin-left: 32px;
+}
+.para3{
+    text-align: center;
+    line-height: 23px;
+}
+.firstdate{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dating1,.dating2{
+    height: 85vh;
+    width: 450px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+.dating2{
+    height:97vh ;
+}
+.para4{
+    line-height: 23px;
+    padding:20px;
+    text-align: justify;
+}
+.i4,.i5{
+    width: 90%;
+    height: 58%;
+    margin: auto 20px;
+    box-shadow: 0px 2px 0px #e5e6e6;
+}
+.i5{
+    height: 45%;
+}
+.totalcontainer{
+    height: 115vh;
+    background-color: rgb(243, 243, 243);
+}
+.matrimony p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 30px 10px;
+    color: #666;
+}
+.contents3{
+    margin-top: 70px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.subcontents3{
+    height: 250px;
+    width: 170px;
+}
+.s1{
+    height: 300px;
+    width: 350px;
+    line-height: 1.75;
+}
+.s2{
+    height: 250px;
+    width: 200px;
+}
+.subcontents3 ul{
+    list-style: none;
+    margin: 15px;
+}
+ul{
+    color: #666;
+}
+a{
+     text-decoration: none;
+     color: #666;
+     line-height: 1.75;
+}
+a:hover{
+    color:brown
+}
+ul li::before {
+  content: "> "; 
+  font-size: 10px;
+  color: #333;
+  margin-right: 8px;
+}
+
+.footer{
+    height: 25vh;
+    background-color: #aa0000;
+    display: flex;
+}
+.icons{
+    height: 100%;
+    width: 30%;
+}
+.icons p {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.icons img{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+}
+.content5{
+    height: 50%;
+    width: 70%;
+    margin: 0 15px;
+}
+.p1{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 7px;    
+    color: white;
+
+}
+.p2{
+    text-align: right;
+    margin-top: 7px;
+    color: white;
+    margin-right: 5px;
+
+}
+.i7{
+    width: 100%;
+    height: 50% ;
+    display: flex;
+    justify-content: right;
+}

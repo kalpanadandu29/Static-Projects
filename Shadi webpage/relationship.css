@@ -1,0 +1,78 @@
+
+.totalcontainer{
+    height:120%;
+    width: 98.5%;
+    margin: 0;
+    border-left: 13px solid rgb(224, 224, 224);
+    border-right: 13px solid rgb(224, 224, 224);
+}
+.relationship{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.84);
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.container{
+    height: 400px;
+    width: 328px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(158, 158, 158);
+}
+image,.i1{
+    height: 50%;
+    width: 100% ;
+}
+.paralink{
+    text-decoration: none;
+    color: black;
+    font-weight: none;
+}
+.paralink:hover{
+    color: blue;
+}
+.para{
+    margin:10px;
+    font-size: 16px;
+}
+.content{
+  height: 50%;
+  width: 90%;
+  margin: 10px;
+  text-align: justify;
+}
+.pages{
+height: 70px;
+width: 95%;
+margin: 50px auto;
+background-color: white;
+box-shadow: 5px 5px 5px rgb(158, 158, 158);
+display: flex;
+align-items: center;
+}
+.pages1{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(2, 101, 141);
+}
+.pages1:hover{
+    color: brown;
+}
+
+.footer{
+height: 80px;
+
+width: 100%;
+background-color: rgb(14, 14, 14); 
+margin: auto;
+display: flex;
+justify-content: space-between;
+
+}
+.rights,.rights1{
+    color: white;
+    margin: 20px 10px;
+    font-size: 14px;
+}
