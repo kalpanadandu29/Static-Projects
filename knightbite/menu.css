@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(55, 54, 54, 0.787);
+    display: flex;
+    position: sticky;
+    top: 0;
+
+
+}
+.logo{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    height: 60%;
+    width: 30%;
+}
+.para1{
+    color: white;
+    font-size: 24px;
+}
+.links{
+    height: auto;
+    width: 60%;
+}
+.links ul{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto;
+    color: white;
+}
+li:hover{
+    color: purple;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Images/Menu\ bg.jpg);
+    background-size: 100% 100vh; 
+    background-repeat: no-repeat; 
+    background-color: black;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+.menuitems{
+    height: 200px;
+    width: 150px;
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+.menuitems .i1{
+    height: 125px;
+    width: 125px;
+}
+.menuitems p{
+    font-family: 'nicotineregular';
+    color: white;
+    margin: 10px auto 20px;
+    display: flex;
+    font-size: 36px;
+}
+.menuitems .i2{
+    display: flex;
+    margin:auto
+}
+.copyrights{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(242, 62, 242);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: purple;
+}
+a:active{
+    color: aqua;
+}

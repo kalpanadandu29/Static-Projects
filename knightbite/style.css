@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(55, 54, 54, 0.787);
+    display: flex;
+    position: sticky;
+    top: 0;
+
+
+}
+.logo{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    height: 60%;
+    width: 30%;
+}
+.para1{
+    color: white;
+    font-size: 24px;
+}
+.links{
+    height: auto;
+    width: 60%;
+}
+.links ul{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto;
+    color: white;
+}
+li:hover{
+    color: purple;
+}
+
+.container{
+    width: 100%;
+    background-image: url(./Images/Home\ bg.jpg);
+    background-size: 100% 100vh; 
+    background-repeat: no-repeat; 
+    color: white;
+    background-color: black;
+    
+}
+.para2,.para3,.para4{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+}
+.b1{
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.button1{
+    padding:13px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(247, 73, 73);
+    color: white;
+
+}
+.buttons{
+    padding: 20px 0 40px 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 25px;
+    justify-content: center;
+}
+.b2{
+    padding:15px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(19, 18, 18);
+    color: white;
+
+}
+
+.container2{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: azure;
+
+
+}
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding:70px 0;
+
+}
+.hl1{
+    text-align: center;
+    padding-top: 20px;
+}
+.chatbox{
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50px;
+    /* position: fixed; */
+    
+
+}
+
+.container3{
+    height: 100vh;
+   
+    width: 100%;
+    background-image: url(./Images/Enjoy_food.jpg);
+    background-size: 100% 100vh; 
+    background-repeat: no-repeat; 
+    color: white;
+    background-color: black;
+}
+.para3{
+    padding-top: 240px;
+}
+.container4{
+     height: 100vh;
+    width: 100%;
+    background-image: url(./Images/Burger_fries.jpg);
+    background-size: 100% 100vh; 
+    background-repeat: no-repeat; 
+    color: white;
+    background-color: black;
+}
+.para4{
+    font-size: 76px;
+}
+
+.button2{
+    padding:20px 0;
+    display: flex;
+    justify-content: center;
+}
+.b4{
+    padding: 15px 30px;
+    background-color: rgb(244, 139, 139);
+    color: white;
+    border-radius: 30px;
+    border-color: white;
+    border-style: solid;
+    font-size: 18px;
+}
+
+.footer{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.p4{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 34px;
+}
+.parts{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.firstpart,.secondpart,.thirdpart{
+    height: 40vh;
+    width: 30%;
+    display: grid;
+}
+.secondpart{
+    height: 40vh;
+    width: 30%;
+    display: grid;
+}
+
+.secondpart ul li{
+    padding: 10px 0;
+}
+input{
+    height: 30px;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+}
+input::placeholder{
+    color: purple;
+}
+
+.parts2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+.firstpart1{
+    height: 20vh;
+    width: 30%;
+    display: grid;
+    padding-left: 40px;
+
+}
+.secondpart1{
+    height: 20vh;
+    width: 10%;
+    display: grid;
+    justify-content: center;
+
+}
+.thirdpart1{
+    height: 25vh;
+    width: 60%;
+    display: grid;
+    justify-content: center;
+}
+.footerimgs{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footerimgs img{
+    height: 40px;
+    width: 40px;
+    margin: 0 20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.copyrights{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(242, 62, 242);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: purple;
+}
+a:active{
+    color: aqua;
+}

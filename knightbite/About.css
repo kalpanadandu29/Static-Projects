@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(55, 54, 54, 0.787);
+    display: flex;
+    position: sticky;
+    top: 0;
+
+
+}
+.logo{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    height: 60%;
+    width: 30%;
+}
+.para1{
+    color: white;
+    font-size: 24px;
+}
+.links{
+    height: auto;
+    width: 60%;
+}
+.links ul{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto;
+    color: white;
+}
+li:hover{
+    color: purple;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Images/About\ bg.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+.rectangle{
+    height: 90vh;
+    width: 40%;
+    
+    color: white;
+    padding-top: 40px;
+
+}
+.rectangle p{
+    font-size: 38px;
+    padding-left: 50px;
+    text-align: left;
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-family: "nicotineregular";
+    font-weight: bold;
+    word-spacing: 15px;
+    line-height: 40px;
+}
+.img1,.img2,.img3{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.img1{
+    height: 50%;
+    width: 70%;
+}
+.para1,.para2,.para3{
+   font-size: 21px;
+    color: #424242;
+    margin: auto;
+    padding: 10px 50px;
+}
+
+.totalcontainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    column-gap: 70px;
+    margin: 50px 0;
+}
+.footer{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.locations{
+    display:grid;
+    height: 20vh;
+    width: 100%;
+    padding: 0px 40px;
+    color: #424242;
+    font-size: 24px;
+    margin-bottom: 20px;
+    row-gap: 15px;
+}
+.footerimgs{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #424242;
+
+}
+.footerimgs img{
+    height: 40px;
+    width: 40px;
+    margin: 30px 20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.copyrights{
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(242, 62, 242);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: purple;
+}
+a:active{
+    color: aqua;
+}
