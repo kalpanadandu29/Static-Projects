@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.553);
+    display: flex;
+    position:sticky;
+    top: 0;
+}
+.header .logo{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.i1{
+    height: 32%;
+    width: 45%;
+    margin: auto;
+}
+.header .links{
+    height: 100%;
+    width: 39%;
+}
+.links ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+    margin: 17px auto;
+    color: white;
+    font-weight: bold;
+}
+.header .subscriptions{
+    height: 100%;
+    width: 20%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+}
+.subscriptions p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto;
+}
+.subscriptions img{
+    height: 50%;
+    width: 20%;
+    margin: auto;
+}
+.header .login{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header .login p{
+    margin: auto 5px auto 20px;
+}
+.en{
+    height: 65%;
+    width: 12%;
+    margin: auto 0;
+    background-color: black;
+    color: white;
+    border:none;
+    font-weight: bold;
+}
+.en:hover{
+    background-color: grey;
+    border-radius: 10%;
+}
+.profile{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin:auto 5px;
+}
+.profile:hover{
+    background-color: aliceblue;
+}
+.join{
+    height: 60%;
+    width: 20%;
+    border-radius: 10%;
+    margin: auto 0;
+    background-color: blue;
+    color: white;
+    border:none;
+    font-weight: bold;
+}
+.join:hover{
+    background-color: rgb(102, 102, 254);
+}
+.header .menu{
+    display: none;
+}
+@media screen and (max-width:900px) {
+    .header{
+        background-color: black;
+    }
+    .header ul{
+        display:none;
+    }
+    .header .subscriptions{
+        display:none;
+    }
+    .header .grid{
+        display: none;
+    }
+    .header .join{
+        display: none;
+    }
+    .header .menu{
+        position: fixed;
+        left: 0;
+        margin-top:10px;
+    
+        display: flex;
+        font-size: 24px;
+        margin-left: 15px;
+        cursor: pointer;
+        color: white;
+    }
+    .header .menu:hover{
+        color: black;
+        background-color: grey;
+        height: 7%;
+        width: 10%;
+        border-radius: 10%;
+    }
+    .header .i1{
+        height: 50%;
+        width: 50%;
+
+    }
+    .header .logo{
+        width: 350%;
+        margin-left: 100px;
+}
+    .header .login{
+        display: flex;
+        align-items:center;
+        gap: 4px;
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width:850px) {
+    .container .leftside .join2{
+        display: none;
+    }
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(./Images/Kubera.jpeg);
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+.container .leftside{
+    height: 100%;
+    width: 40%;
+}
+.container .i3{
+    height: 10%;
+    width: 12%;
+    margin-top: 30%;
+    margin-left: 44px;
+}
+.container .i4{
+    height: 23%;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.join2 button{
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(139, 139, 139);
+    color: white;
+    font-weight: bold;
+
+}
+.join2 button:hover{
+    background-color: rgb(160, 158, 158);
+}
+.fa-solid fa-plus{
+    margin: 20px;
+}
+
+.join2{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: rgb(139, 139, 139);
+}
+@media screen and (max-width:860px){
+    .container{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(./Images/Kubera.jpeg);
+    background-size: 100% 50vh; 
+    background-repeat: no-repeat; 
+}
+}
+
+
+.container1{
+    height: 34vh;
+    width: 100%;
+    background-color: black;
+    display:flex ;
+    justify-content: space-evenly;
+
+}
+.movies{
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.movies h3{
+    margin: 15px 25px;
+}
+.container1 .box1,.box2,.box3,.box4{
+    height: 30vh;
+    width: 23%;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+.im4{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.im2{
+     height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.im3{
+     height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.im1{
+     height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.im4:hover{
+    transform: scale(1.1);
+}
+.im1:hover{
+    transform: scale(1.1)
+}
+.im2:hover{
+    transform: scale(1.1)
+}
+.im3:hover{
+    transform: scale(1.1)
+}
+
+
+
+@media screen and (max-width:860px){
+.container1{
+    height: 34vh;
+    width: 100%;
+    background-color: black;
+    display:flex ;
+    justify-content: space-evenly;
+}
+
+.container1 .box1{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0px;
+    width: 50%;
+    height: 80%;
+    /* height: 20vh;
+    width: 45%;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0; */
+}
+.container .box2{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0px;
+    width: 50%;
+    height: 80%;
+}
+.container1 .box3,.box4{
+    display: none;
+}
+.container .im1{
+    height: 20vh;
+    width: 45%;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+.container .im2{
+    height: 20vh;
+    width: 45%;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+.container1 .im3,.im4{
+    display: none;
+}
+}
+
+.footer{
+    height: 25vh;
+    width: 100%;
+    background-color: #222222;
+    text-align: center;
+    font-size: 16px;
+    color: #ccc;
+    padding: 20px 0;
+    font-family: sans-serif;
+}
+.footer a{
+    color: #00a8e1;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.footer a:hover{
+    color: #2ac3f6;
+}
+.logo1{
+    height: 29%;
+    width: 10%;
+    display: block;
+    margin:0 auto 10px auto;
+}
+.copy{
+    margin: 10px ;
+}
